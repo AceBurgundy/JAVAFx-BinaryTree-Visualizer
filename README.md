@@ -23,4 +23,4 @@ My first JavaFx App
 
 ## Download
 
-![Binary Tree Visualizer.exe](https://github.com/AceBurgundy/JAVAFx-BinaryTree-Visualizer/blob/master/Binary%20Tree%20Visualizer.exe)
+![Binary Tree Visualizer.exe](https://github.com/AceBurgundy/JAVAFx-BinaryTree-Visualizer/raw/master/Binary%20Tree%20Visualizer.exe)
