@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.BinaryTree.Controller">
+   <children>
+      <Pane id="screen" fx:id="screen" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="653.0" prefWidth="1280.0" />
+      <GridPane id="menu" fx:id="menu" alignment="CENTER" maxHeight="-Infinity" prefHeight="165.0" prefWidth="1280.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="RIGHT" hgrow="ALWAYS" maxWidth="883.0" minWidth="10.0" prefWidth="883.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="633.0" minWidth="10.0" prefWidth="397.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="98.0" minHeight="10.0" prefHeight="94.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b09999" height="73.0" stroke="TRANSPARENT" strokeType="INSIDE" strokeWidth="0.0" width="836.0" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS">
+               <GridPane.margin>
+                  <Insets top="10.0" />
+               </GridPane.margin>
+            </Rectangle>
+            <TextField id="array-input" fx:id="arrayInput" maxWidth="-Infinity" prefHeight="71.0" prefWidth="836.0" text="14,15,4,9,7,18,3,5,16,4,20,17,9,4,5" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS">
+               <font>
+                  <Font size="26.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+               <GridPane.margin>
+                  <Insets bottom="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b09999" height="73.0" stroke="TRANSPARENT" strokeType="INSIDE" strokeWidth="0.0" width="280.0" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets left="18.0" top="5.0" />
+               </GridPane.margin>
+            </Rectangle>
+            <Button id="create-button" fx:id="createButton" maxHeight="-Infinity" mnemonicParsing="false" onAction="#createTree" prefHeight="66.0" prefWidth="279.0" text="CREATE" GridPane.columnIndex="1">
+               <font>
+                  <Font size="43.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <GridPane.margin>
+                  <Insets bottom="10.0" />
+               </GridPane.margin>
+            </Button>
+         </children>
+      </GridPane>
+   </children>
+</VBox>

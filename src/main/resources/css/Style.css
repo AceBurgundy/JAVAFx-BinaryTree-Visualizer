@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Press Start 2P";
+    src: url(../fonts/game.ttf);
+}
+
+#screen,
+#menu {
+    -fx-background-color: #1e1e1e;
+}
+
+#create-button,
+.button,
+#array-input {
+    -fx-font-family: "Press Start 2P";
+    -fx-background-color: #25292C;
+    -fx-text-fill: white;
+}
+
+#create-button {
+    -fx-font-size: 36px;
+}
+
+#array-input, .button {
+    -fx-font-size: 20px;
+}
+
+.traversal-result {
+    -fx-font-size: 18px;
+    -fx-text-fill: white;
+    -fx-font-family: "Press Start 2P";
+}
+
+
+.nodeText {
+    -fx-font-family: "Press Start 2P";
+}
