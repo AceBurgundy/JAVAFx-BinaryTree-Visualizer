@@ -1,6 +1,6 @@
 # JAVAFx BinaryTree Visualizer
 
-my first JavaFx App
+My first JavaFx App
 
 
 ## Features
