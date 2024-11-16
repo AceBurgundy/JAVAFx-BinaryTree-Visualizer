@@ -36,7 +36,7 @@ The **Binary Tree Visualizer** is a JavaFX application designed to help users un
 ### Prerequisites
 - **Java Development Kit (JDK)**: Latest Version.
 - **JavaFX SDK**: Ensure the JavaFX libraries are properly installed and configured.
-- **Tutorial Video**: ![How To Setup JavaFX 22 and JDK 22 on Netbeans IDE (NEW)](https://www.youtube.com/watch?v=G8seLHAYT6k)
+- **Tutorial Video**: [How To Setup JavaFX 22 and JDK 22 on Netbeans IDE (NEW)](https://www.youtube.com/watch?v=G8seLHAYT6k)
   
 ### Steps
 1. Clone or download the repository:
