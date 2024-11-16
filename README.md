@@ -91,7 +91,7 @@ We welcome contributions to enhance the app! If you'd like to add new features o
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [Eclipse Public License - v 2.0](LICENSE).
 
 ---
 
