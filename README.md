@@ -1,8 +1,12 @@
-# Binary Tree Visualizer App
+# Binary Tree Visualizer
+
+**The Binary Tree Visualizer** is a JavaFX-based desktop application that helps users learn and explore binary trees through interactive visualizations. It brings algorithms to life by animating standard tree traversals, making data structure learning more intuitive and engaging.
+
+---
 
 ## Overview
 
-The **Binary Tree Visualizer** is a JavaFX application designed to help users understand and visualize binary trees. With this interactive tool, you can create binary trees, visualize their structure, and animate different tree traversal algorithms. The app also allows you to input custom number sequences to generate and explore your own binary trees.
+The **Binary Tree Visualizer** is a JavaFX application designed to help users understand and visualize binary trees in a dynamic, hands-on way. With this interactive tool, you can create binary trees, visualize their structure, and animate various traversal algorithms such as pre-order, in-order, post-order, and level-order. You can also input custom sequences to construct and explore personalized trees, making the app an excellent learning aid for both students and educators.
 
 ![GIF](visualizer.gif)
 
@@ -11,81 +15,102 @@ The **Binary Tree Visualizer** is a JavaFX application designed to help users un
 ## Features
 
 ### 🌳 **Binary Tree Visualization**
-- Automatically generate and display binary trees.
-- Clear and interactive GUI for better understanding of tree structures.
+
+* Automatically generate and display binary trees with graphical nodes and edges.
+* Instantly see how different insertion orders affect tree structure.
 
 ### 🔄 **Animated Traversals**
-- Watch step-by-step animations of the following traversal methods:
-  - Pre-order Traversal
-  - In-order Traversal
-  - Post-order Traversal
-  - Level-order Traversal
 
-### 🛠 **Custom Input**
-- Input your own sequence of numbers to create a personalized binary tree.
-- Supports duplicate handling based on chosen insertion logic.
+* View step-by-step animations of core traversal algorithms:
+
+  * **Pre-order**
+  * **In-order**
+  * **Post-order**
+  * **Level-order**
+* Great for reinforcing theoretical concepts with visual examples.
+
+### 🛠 **Custom Input Support**
+
+* Enter your own sequence of numbers (comma-separated) to create a custom tree.
+* Intelligent insertion logic with basic handling for duplicates.
 
 ### 🎨 **User-Friendly Interface**
-- Easy-to-navigate layout with clear buttons and labels.
-- Real-time updates as you interact with the tree.
+
+* Intuitive layout with clearly labeled buttons and inputs.
+* Real-time rendering and animation feedback.
 
 ---
 
 ## Installation
 
-### Prerequisites
-- **Java Development Kit (JDK)**: Latest Version.
-- **JavaFX SDK**: Ensure the JavaFX libraries are properly installed and configured.
-- **Tutorial Video**: [How To Setup JavaFX 22 and JDK 22 on Netbeans IDE (NEW)](https://www.youtube.com/watch?v=G8seLHAYT6k)
-  
-### Steps
-1. Clone or download the repository:
+### 🔧 Prerequisites
+
+* **Java Development Kit (JDK)**: Latest version recommended (e.g., JDK 22).
+* **JavaFX SDK**: Ensure JavaFX is properly downloaded and configured in your IDE.
+* **Helpful Setup Guide**:
+  🎥 [How To Setup JavaFX 22 and JDK 22 on NetBeans IDE (YouTube)](https://www.youtube.com/watch?v=G8seLHAYT6k)
+
+### 📦 Setup Steps
+
+1. Clone the repository:
+
    ```bash
    git clone https://github.com/AceBurgundy/JAVAFx-BinaryTree-Visualizer.git
    ```
-2. Open the project in your favorite IDE (e.g., IntelliJ IDEA, Eclipse).
-3. Run the application by executing the `Run` class.
+2. Open the project in your preferred Java IDE (IntelliJ, NetBeans, Eclipse).
+3. Ensure JavaFX libraries are correctly linked in your project settings.
+4. Run the `App` class to launch the visualizer.
 
 ---
 
 ## Usage
 
 1. **Launch the App**:
-   - Run the `App` class to start the application.
 
-2. **Visualizing a Tree**:
-   - Click the "Create" button to create a binary tree from the initial values provided.
+   * Execute the `App` class or use the `.exe` if on Windows.
 
-3. **Custom Number Sequence**:
-   - Input your own sequence of numbers (comma-separated) in the input box.
-   - Click "Create" to generate the tree from your sequence.
+2. **Generate a Tree**:
 
-4. **Animate Traversals**:
-   - Select a traversal method (Preorder, Inorder, Postorder) from the options.
-   - Click "Create" to see the traversal process visualized step-by-step.
+   * Use default or custom values to generate your binary tree.
 
-5. **Reset**:
-   - Use the "Reset" button to clear the tree and start fresh.
+3. **Custom Sequences**:
+
+   * Input a comma-separated list of numbers and hit "Create" to build your own tree.
+
+4. **Run Traversals**:
+
+   * Select any traversal method (Preorder, Inorder, Postorder, Level-order).
+   * Click "Create" to animate the traversal and observe the algorithm in action.
+
+5. **Reset Functionality**:
+
+   * Clear the tree with the "Reset" button and start a new session.
 
 ---
 
 ## Contribution
 
-We welcome contributions to enhance the app! If you'd like to add new features or fix bugs:
+We welcome open-source contributions!
+
+To contribute:
+
 1. Fork the repository.
-2. Create a new branch:
+2. Create a feature branch:
+
    ```bash
-   git checkout -b feature-name
+   git checkout -b feature-yourFeatureName
    ```
 3. Commit your changes:
+
    ```bash
-   git commit -m "Add feature or fix description"
+   git commit -m "Describe your update"
    ```
-4. Push to your branch:
+4. Push to your forked repo:
+
    ```bash
-   git push origin feature-name
+   git push origin feature-yourFeatureName
    ```
-5. Open a pull request.
+5. Submit a pull request with a brief explanation.
 
 ---
 
@@ -97,10 +122,13 @@ This project is licensed under the [Eclipse Public License - v 2.0](LICENSE).
 
 ## Contact
 
-For questions or suggestions, feel free to reach out at:
-- **Email**: samadriansabalo99@gmail.com
-- **GitHub**: [AceBurgundy](https://github.com/AceBurgundy)
+For support or collaboration inquiries:
+
+* 📧 **Email**: [samadriansabalo99@gmail.com](mailto:samadriansabalo99@gmail.com)
+* 💻 **GitHub**: [AceBurgundy](https://github.com/AceBurgundy)
+
+---
 
 ## Download
 
-![Binary Tree Visualizer.exe](https://github.com/AceBurgundy/JAVAFx-BinaryTree-Visualizer/raw/master/Binary%20Tree%20Visualizer.exe)
+📥 [**Binary Tree Visualizer .exe**](https://github.com/AceBurgundy/JAVAFx-BinaryTree-Visualizer/raw/master/Binary%20Tree%20Visualizer.exe)
