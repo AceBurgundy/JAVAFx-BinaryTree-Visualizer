@@ -2,15 +2,11 @@
 
 **The Binary Tree Visualizer** is a JavaFX-based desktop application that helps users learn and explore binary trees through interactive visualizations. It brings algorithms to life by animating standard tree traversals, making data structure learning more intuitive and engaging.
 
----
-
 ## Overview
 
 The **Binary Tree Visualizer** is a JavaFX application designed to help users understand and visualize binary trees in a dynamic, hands-on way. With this interactive tool, you can create binary trees, visualize their structure, and animate various traversal algorithms such as pre-order, in-order, post-order, and level-order. You can also input custom sequences to construct and explore personalized trees, making the app an excellent learning aid for both students and educators.
 
 ![GIF](visualizer.gif)
-
----
 
 ## Features
 
@@ -39,8 +35,6 @@ The **Binary Tree Visualizer** is a JavaFX application designed to help users un
 * Intuitive layout with clearly labeled buttons and inputs.
 * Real-time rendering and animation feedback.
 
----
-
 ## Installation
 
 ### 🔧 Prerequisites
@@ -60,8 +54,6 @@ The **Binary Tree Visualizer** is a JavaFX application designed to help users un
 2. Open the project in your preferred Java IDE (IntelliJ, NetBeans, Eclipse).
 3. Ensure JavaFX libraries are correctly linked in your project settings.
 4. Run the `App` class to launch the visualizer.
-
----
 
 ## Usage
 
@@ -85,8 +77,6 @@ The **Binary Tree Visualizer** is a JavaFX application designed to help users un
 5. **Reset Functionality**:
 
    * Clear the tree with the "Reset" button and start a new session.
-
----
 
 ## Contribution
 
@@ -112,13 +102,9 @@ To contribute:
    ```
 5. Submit a pull request with a brief explanation.
 
----
-
 ## License
 
 This project is licensed under the [Eclipse Public License - v 2.0](LICENSE).
-
----
 
 ## Contact
 
@@ -126,9 +112,3 @@ For support or collaboration inquiries:
 
 * 📧 **Email**: [samadriansabalo99@gmail.com](mailto:samadriansabalo99@gmail.com)
 * 💻 **GitHub**: [AceBurgundy](https://github.com/AceBurgundy)
-
----
-
-## Download
-
-📥 [**Binary Tree Visualizer .exe**](https://github.com/AceBurgundy/JAVAFx-BinaryTree-Visualizer/raw/master/Binary%20Tree%20Visualizer.exe)
